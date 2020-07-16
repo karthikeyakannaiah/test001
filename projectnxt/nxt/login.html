@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.js"></script>
+        <title>ProjectnXt</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            body
+            {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                align-content: center;
+                font-family: monospace;
+            }
+            #t1
+            {
+                text-align: center;
+                font-size: 40px;
+            }
+            #t1::before{
+                content: "";
+                position: absolute;
+                width: 14px;
+                height: 4px;
+                background: red;
+                transform: skewX(50deg);
+                transition: .4s linear;
+                left: 50%;
+            }
+            #muc
+            {
+                text-align: center;
+                font-size: 15px;
+                bottom: -20px;
+                color: blue;
+            }
+            #foo
+            {
+                font-size: 10px;
+                padding: 50px 0px;
+                text-align: center;
+            }
+            #useremail,#password,#name,#email,#pass,#repass{
+                border-radius: 4px;
+                padding: 15px 25px;
+                background: none;
+                border = 8px;
+                border-color: red;
+            }
+            #useremail:hover,#password:hover,#name:hover,#email:hover,#pass:hover,#repass:hover{
+                border-color: blue;
+            }
+            #head{
+                color: green;
+            }
+            #lgn,#snp{
+                text-decoration-color: blue;
+                width = 400px;
+                height = 400px;
+                padding: 20px 40px;
+                background: none;
+                border = 2px;
+                border-color: red;
+                color: blue;
+                cursor: pointer;
+                position: relative;
+                border-radius: 4px;
+                bottom: -30px;
+                font size: 20px;
+            }
+            #lgn::before,#lgn::after,#snp::before,#snp::after{
+                content: "";
+                position: absolute;
+                width: 14px;
+                height: 4px;
+                background: blue;
+                transform: skewX(0deg);
+                transition: .4s linear;
+            }
+            #lgn::before,#snp::before{
+                top: -4px;
+                left: 10%;
+            }
+            #lgn::after,#snp::after
+            {
+                bottom: -4px;
+                right: 10%;
+            }
+            #lgn:hover::before,#snp:hover::before{
+                left: 80%;
+            }
+            #lgn:hover::after,#snp:hover::after{
+                right: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="t1">ProjectnXt</h1>
+        <h2 id="muc">--mucho gusto--</h2>
+        
+        <div id="login_div" class="main-div">
+        <br>
+        <h3 id="head">login</h3>
+        <input type="email" placeholder="Email..." id="useremail" />
+        <br>
+        <input type="password" placeholder="Password..." id="password" />
+            <br><br>
+        <button onclick="login()" id="lgn">Login to Account</button>
+        <br><br><br>
+        <h3 id="head">Signup</h3>
+        <input type="text" name="name" placeholder="name" id="name"><br>
+        <input type="email" name="email"  placeholder="email" id="email"><br>
+        <input type="password" name="password"  placeholder="password" id="pass"><br>
+        <input type="password" name="repass" placeholder="confirm password" id="repass"><br><br>
+        <button onclick="signup()" id="snp">sign up</button>
+        </div>
+        <!--<div id="user_div" class="loggedin-div" >
+            <h1>you are signed in</h1>
+        </div> -->
+        <div id="user_para"></div>
+        <footer id="foo">ProjectnXt@2020</footer>
+    </body>
+</html>
