@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	
+	<div id="mySidenav" class="sidenav justify-content-center">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <button class="" id="darkmode" onclick="darkmode()">dark mode</button>
+	  <button class="" id="lightmode" onclick="lightmode()">light mode</button>
+	  <a href="javascript:void(0)" onclick="about()">About</a>
+	  <a href="javascript:void(0)" onclick="interest()">Interests</a>
+	  <div class="dropdown">
+		  <button class="dropbtn">Contact</button>
+		  <div class="dropdown-content">
+		    <a href="https://www.instagram.com/karthikeyakannaiah/" id="insta">Instagram</a>
+		    
+		    <a href="https://www.linkedin.com/in/karthikeya-kannaiah-052176194/" id="lnkdn">LinkedIn</a>
+		  </div>
+		</div><br><br>
+	  <!-- <label id="dkm" class="switch">
+  		<input id= "mode" type="checkbox"  >
+  		<span class="slider round"></span>
+  		dark mode
+	</label> -->
+	</div>
+	<span id="navb" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	<br>
+	<div id="main">
+		<img src="me2.jpeg" alt="myphoto" class="center" id="me">
+		<h1 id="he01"><b>Karthikeya Kannaiah</b></h1>
+		
+		<p id="div2">my name is Karthikeya </p>
+		<div id="abt">
+			<p id="abtp">I am from Kurnool, Andhra Pradesh</p>
+			<a href="javascript:void(0)" class="closebtn" id="clab" onclick="cloabt()">&times;</a>
+		</div>
+		<div id="int">
+			<p id="intp">Being Lazy</p>
+			<a href="javascript:void(0)" class="closebtn" id="clab2" onclick="cloint()">&times;</a>
+		</div>
+	</div>	
+</body>
+</html>
