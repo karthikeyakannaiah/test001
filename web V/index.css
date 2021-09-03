@@ -1,0 +1,76 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+.nav {
+  background-color: violet;
+  text-align: center;
+  padding: 20px;
+  margin: 0 40%;
+  border-radius: 50px;
+}
+.head {
+  font-size: large;
+  font-weight: bolder;
+}
+footer {
+  text-align: center;
+}
+video {
+  margin: 10px 10px;
+  width: 1000px;
+  height: 500px;
+}
+.search {
+  margin-top: 20px;
+  font-size: large;
+}
+aside {
+  width: 20%;
+  margin: 20px;
+  padding: 10px;
+  background-color: violet;
+  float: right;
+}
+.content {
+  margin: 50px;
+  text-align: center;
+}
+.content h1 {
+  font-size: large;
+}
+.trends {
+  color: black;
+  padding: 50px;
+  text-align: center;
+  margin: 0 10%;
+  width: 1000px;
+  height: 200px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: violet;
+}
+.trends > a {
+  color: white;
+  font-size: larger;
+}
+.trends a:hover {
+  font-size: x-large;
+}
+.cen {
+  text-align: center;
+}
+.cen a {
+  color: violet;
+}
+.cen a:hover {
+  font-weight: bolder;
+}
+.vid {
+  text-align: center;
+  margin: 20px 0;
+}

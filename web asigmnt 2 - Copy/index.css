@@ -1,0 +1,54 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav {
+  background-color: orangered;
+  padding: 30px 10px;
+}
+.head {
+  float: right;
+  font-size: large;
+}
+footer {
+  text-align: center;
+}
+.products {
+  margin: 10px 300px;
+  margin-bottom: 70px;
+}
+.pr {
+  padding: 10px 20px;
+  background-color: tomato;
+}
+.pr figure {
+  margin: 100px 100px;
+}
+.pr aside {
+  width: 20%;
+  padding: 15px;
+  float: right;
+  background-color: orange;
+}
+.pr img {
+  width: 200px;
+  height: 200px;
+}
+video {
+  margin: 10px 10px;
+  width: 1000px;
+  height: 500px;
+}
+.search {
+  text-align: center;
+  margin: 50px;
+  font-size: large;
+}

@@ -1,0 +1,89 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: rgba(255, 255, 255, 0);
+}
+header a {
+  color: black;
+  text-decoration: none;
+  float: right;
+  margin: 10px;
+}
+header aside h1 {
+  font-size: xx-large;
+}
+.content {
+  margin: 100px 100px;
+}
+.content figure {
+  text-align: center;
+}
+.content figure img {
+  height: 30%;
+  width: 30%;
+}
+.content figure figcaption {
+  font-size: large;
+  margin: 10px 10px;
+}
+.cart {
+  margin: 30px 50px;
+}
+footer {
+  margin: 0 100px;
+}
+footer a {
+  font-size: small;
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.cart a {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+.cart a:hover {
+  font-weight: bold;
+}
+.login-form {
+  background-color: gray;
+  margin: 100px 100px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.login-form input {
+  margin: 10px 10px;
+}
+.login-form a {
+  margin: 10px 10px;
+}
+.login-form button {
+  margin: 10px;
+  padding: 20px 50px;
+}
+.login-form button:hover {
+  background-color: gray;
+  font-style: italic;
+}
+.help-desk {
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.help-desk figure img {
+  width: 100px;
+  height: 100px;
+}
+.help-desk figure {
+  text-align: center;
+}
+#h1 {
+  margin: 50px 100px;
+  text-align: center;
+}
+article {
+  margin: 0 100px;
+}
