@@ -1,6 +1,9 @@
 # test001  
-just for test  
-random shit I throw here  
-some useful some not  
-but i am sentimental  
-i don wanna lose them forever so i keep em
+This is a limbo repository
+Not So important stuff are stored here
+they are still lil important cus some of these took some amount of work todo  
+so i am lil sentimental about losing them
+this contains small projects
+most of the folders are mine
+but some are external code which I have used
+just kept here so may be useful some day
